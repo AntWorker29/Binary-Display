@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 static void afis_binar(unsigned int n, int nb)
 {
 	system("COLOR 0E");
@@ -47,21 +48,11 @@ int main(void)
 	cin >> prenum;
 	cout << "\n\t Numele Complet : " << num + " " + prenum;
 	cout << "\n NOTE : ";
-	cout << "\n\t Lucrarea 1 : ";
-	//cin >> n1;
-	cout << n1;
-	cout << "\n\t Lucrarea 2 : ";
-	//cin >> n2;
-	cout << n2;
-	cout << "\n\t Lucrarea 3 : ";
-	//cin >> n3;
-	cout << n3;
-	cout << "\n\t Lucrarea 4 : ";
-	//cin >> n4;
-	cout << n4;
-	cout << "\n\t Lucrarea 5 : ";
-	//cin >> n5;
-	cout << n5;
+	cout << "\n\t Lucrarea 1 : "<< n1;
+	cout << "\n\t Lucrarea 2 : "<< n2;
+	cout << "\n\t Lucrarea 3 : "<< n3;
+	cout << "\n\t Lucrarea 4 : "<< n4;
+	cout << "\n\t Lucrarea 5 : "<< n5;
 	cout << "\n\n\t Media : ";
 	m = (n1 + n2 + n3 + n4 + n5) / 5;
 	cout << m;
